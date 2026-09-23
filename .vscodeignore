@@ -1,0 +1,12 @@
+# Development files
+.git/
+.github/
+.vscode/
+node_modules/
+*.vsix
+
+# Repository-only files
+.gitignore
+.vscodeignore
+
+# Keep Marketplace/user documentation and assets

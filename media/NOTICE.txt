@@ -1,0 +1,10 @@
+Codicons
+--------
+This extension bundles the Codicon font from the Microsoft vscode-codicons project for use inside the webview UI.
+
+Project: https://github.com/microsoft/vscode-codicons
+Package: @vscode/codicons
+License: CC BY 4.0
+License text: https://creativecommons.org/licenses/by/4.0/
+
+The extension only bundles the font resource needed by the webview; no runtime npm dependency is required.

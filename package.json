@@ -1,0 +1,70 @@
+{
+  "name": "project-dependency-tree",
+  "displayName": "Project Dependency Tree",
+  "description": "Visualize complete .NET project-to-project dependencies from a .sln or .slnx solution as a recursive tree.",
+  "version": "0.15.0",
+  "publisher": "CleanEngineering",
+  "author": {
+    "name": "Yahya Ebneddin"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CleanEngineering/ProjectDependencyTree_VSCode_Extension.git"
+  },
+  "homepage": "https://github.com/CleanEngineering/ProjectDependencyTree_VSCode_Extension",
+  "bugs": {
+    "url": "https://github.com/CleanEngineering/ProjectDependencyTree_VSCode_Extension/issues"
+  },
+  "keywords": [
+    "dependency",
+    "project dependency",
+    "project reference",
+    "dotnet",
+    "csharp",
+    "sln",
+    "slnx",
+    "sqlproj",
+    "visualization",
+    "architecture"
+  ],
+  "categories": [
+    "Visualization",
+    "Other"
+  ],
+  "galleryBanner": {
+    "color": "#1f2937",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onCommand:projectDependencyTree.open"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "projectDependencyTree.open",
+        "title": "Project Dependency Tree: Open"
+      },
+      {
+        "command": "projectDependencyTree.exportText",
+        "title": "Project Dependency Tree: Export Tree to Text"
+      }
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "projectDependencyTree.open"
+        },
+        {
+          "command": "projectDependencyTree.exportText"
+        }
+      ]
+    }
+  },
+  "qna": false
+}

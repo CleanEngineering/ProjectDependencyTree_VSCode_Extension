@@ -1,0 +1,25 @@
+@font-face {
+  font-family: codicon;
+  font-display: block;
+  src: url("./codicon.ttf") format("truetype");
+}
+
+.codicon {
+  font-family: codicon;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.codicon-export::before { content: "\ebac"; }
+.codicon-expand-all::before { content: "\eb95"; }
+.codicon-collapse-all::before { content: "\eac5"; }
+.codicon-clear-all::before { content: "\eabf"; }
+.codicon-symbol-class::before { content: "\eb5b"; }
+
+.codicon-arrow-up::before { content: "\eaa1"; }
+.codicon-arrow-down::before { content: "\ea9a"; }
