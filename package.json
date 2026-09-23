@@ -9,6 +9,9 @@
   },
   "license": "SEE LICENSE IN LICENSE",
   "icon": "icon.png",
+  "sponsor": {
+    "url": "https://github.com/sponsors/CleanEngineering"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/CleanEngineering/ProjectDependencyTree_VSCode_Extension.git"

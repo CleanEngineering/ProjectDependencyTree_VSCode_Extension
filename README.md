@@ -104,8 +104,15 @@ MIT. See [LICENSE](LICENSE).
 
 ## Publisher
 
-**CleanEngineering**
-
-Created and published by **Yahya Ebneddin**.
+Created and published by **CleanEngineering**.
 
 Repository: https://github.com/CleanEngineering/ProjectDependencyTree_VSCode_Extension
+
+## Support
+
+If this extension is useful to you, consider supporting its development:
+
+- ☕ [Buy Me a Coffee](https://buymeacoffee.com/cleanengineering)
+- ❤️ [GitHub Sponsors](https://github.com/sponsors/CleanEngineering)
+
+Your support helps me continue building and maintaining free, open-source tools for developers.
