@@ -3,7 +3,7 @@
   "displayName": "Project Dependency Tree",
   "description": "Visualize complete .NET project-to-project dependencies from a .sln or .slnx solution as a recursive tree.",
   "version": "0.15.0",
-  "publisher": "CleanEngineering",
+  "publisher": "CleanDevelopment",
   "author": {
     "name": "Yahya Ebneddin"
   },
